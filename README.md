@@ -23,4 +23,8 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
     - Create database.sql file inside server folder (Commands to create database & tables will be stored here for easy reading and use)
     - Create database perntodo in SQL Shell
     - Navigate to perntodo database and create todo table
-    
+ 3. Connect PostgreSQL Database And Server
+    - Create file db.js to configure how the server connects to the database
+    - In the db.js file, create the connection to the database by creating a new Pool with the following information: User, Password, Host, Port & Database name
+    - Additionally, you can add a gitignore file to prevent sensitive information from being available in the online repository
+    - Import the db file into the index
