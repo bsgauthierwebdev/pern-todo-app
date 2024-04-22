@@ -19,3 +19,8 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
             'app.use(cors())'
             'app.use(express.json())
         )
+ 2. Build Postgres Database & Table
+    - Create database.sql file inside server folder (Commands to create database & tables will be stored here for easy reading and use)
+    - Create database perntodo in SQL Shell
+    - Navigate to perntodo database and create todo table
+    
