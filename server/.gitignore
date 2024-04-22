@@ -1,0 +1,7 @@
+# Logs and databases #
+######################
+*.sql
+
+# OS generated files #
+######################
+db.js
