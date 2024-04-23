@@ -28,3 +28,8 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
     - In the db.js file, create the connection to the database by creating a new Pool with the following information: User, Password, Host, Port & Database name
     - Additionally, you can add a gitignore file to prevent sensitive information from being available in the online repository
     - Import the db file into the index
+ 4. Build Routes With Postgres Queries
+    - Start building routes to Create, Get (all & single), Update and Delete ToDos
+    - Use async / await functions to speed up the experience
+    - Always use a try / catch function to catch errors
+    
