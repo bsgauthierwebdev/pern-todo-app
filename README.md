@@ -58,3 +58,13 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
    - Install Bootstrap 4
        - Copy CSS code from Bootstrap 4 page, paste into public -> index.html file under the manifest link
        - Copy the JS code from Bootstrap 4 page, pase into public -> index.html at the end of the body section
+ 6. Building the Input ToDo Component
+    - Build initial component using rafce
+    - Import component into the App.js file inside a 'container' div inside the Fragment
+    - Import Fragment into the InputTodo.js file
+    - Add the component title inside the Fragment
+    - Add & style a form for new submissions:
+        - Input box
+        - Submit button 
+   - Add useState hook to component and build state setups to set the input value
+   - Build the async/await function to submit the data to the database using a try / catch block
