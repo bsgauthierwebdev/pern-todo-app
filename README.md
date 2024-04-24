@@ -6,6 +6,9 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
 ## The purpose of this tutorial is to learn the steps involved in building both ends of a full-stack application with read, write, edit and delete functionality
 
 # Instructions & Documentation
+
+## Back-End Configuration
+
  1. Build the Server
     - Create a 'server' folder. Navigate inside the folder and run 'npm init'
     - Install express, postgresql and cors dependencies
@@ -33,3 +36,25 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
     - Use async / await functions to speed up the experience
     - Always use a try / catch function to catch errors
     
+## Front-End Configuration
+
+ 5. Set Up Client Side
+    - In your command prompt (or Git Bash), back out of the server folder and run "npx create-react-app client" to build the React front-end application.
+    - Application will have three main components: 
+       - Input component
+       - Component to show all todos
+       - Modal editing component
+   - Clean up unnecessary files & components inside src folder from initial build
+       - App.test.js
+       - logo.svg
+       - serviceWorker.js / reportWebVitals.js
+       - setupTests.js
+   - Clean up unnecessary code in index.js & App.js files
+   - Import {Fragment} into App.js file, remove all code in the return and begin with a Fragment component
+   - Create Components folder to house the component files:
+       - InputTodo.js
+       - ListTodos.js
+       - EditTodo.js
+   - Install Bootstrap 4
+       - Copy CSS code from Bootstrap 4 page, paste into public -> index.html file under the manifest link
+       - Copy the JS code from Bootstrap 4 page, pase into public -> index.html at the end of the body section
