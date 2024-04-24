@@ -1,9 +1,14 @@
 import { Fragment } from 'react';
 import './App.css';
+import InputTodo from './Components/InputTodo';
 
 function App() {
   return (
-    <Fragment></Fragment>
+    <Fragment>
+      <div className="container">
+        <InputTodo />
+      </div>
+    </Fragment>
   );
 }
 
