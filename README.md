@@ -68,3 +68,13 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
         - Submit button 
    - Add useState hook to component and build state setups to set the input value
    - Build the async/await function to submit the data to the database using a try / catch block
+ 7. Build the List ToDo Component
+    - Build the initial component using rafce
+    - Import component into App.js file & add under the InputTodo component
+    - Import Fragment into the List ToDo Component
+    - Return the component with a Fragment and place the Bootstrap 4 table into the Fragment (copy & paste from w3schools page)
+    - Change the information in the table to match what will be displayed in the screen
+    - Import useEffect & useState
+    - Create getTodos try/catch function and add it to useEffect to take place every time the page renders
+    - Once you confirm you are fetching the data, map it in the table
+    - Add Edit & Delete text to the table for each line item
