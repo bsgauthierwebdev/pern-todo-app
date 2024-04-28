@@ -78,3 +78,9 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
     - Create getTodos try/catch function and add it to useEffect to take place every time the page renders
     - Once you confirm you are fetching the data, map it in the table
     - Add Edit & Delete text to the table for each line item
+ 8. Build the Delete Button
+    - In the ListTodos component, replace the "Delete" text with a Delete button and style it
+    - Add a key under the <tr> element that will be unique - In this case, we use the todo_id for each todo item
+    - Add an onClick event handler to delete the todo from the table
+    - Build function to take the todo id as an argument and delete that item from the table
+    - Add a filter function at the end to refresh the page with the new data - The filter should only show the items whose id's DO NOT match the id of the item to be deleted
