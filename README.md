@@ -84,3 +84,18 @@ https://www.youtube.com/watch?v=ldYcgPKEZC8
     - Add an onClick event handler to delete the todo from the table
     - Build function to take the todo id as an argument and delete that item from the table
     - Add a filter function at the end to refresh the page with the new data - The filter should only show the items whose id's DO NOT match the id of the item to be deleted
+ 9. Build the Edit ToDo Component
+    - Build the initial component using rafce
+    - Import component into the ListTodos component
+    - Add EditTodo component to the table in the map area of the ListTodos component, between the item description and the Delete button
+    - Import the Fragment hook into the component and use it as the main div
+    - Copy code for a modal from W3schools (Google search w3schools bootstrap 4 modal) and paste into the component inside the Fragment
+    - Change the default content to fit the component and add a second "Edit" button inside the modal
+    - Add the prop to the EditTodo component inside the ListTodos component and add the same component to the EditTodo component
+    - Import useState hook to keep track of the todo you are editing
+    - Assign a unique ID to each modal instance by using the ID of each todo
+    - Add onChange hook to the modal to setDescription whenever text is updated
+    - Add onClick to the Update button to update todo to the new description
+    - Add "window.location = '/' " to refresh the page when the item is updated
+    - Add onClick function to the X on the modal to reset the description back to the original description (when you choose not to edit)
+    - Add functionality to other buttons as well, including the Close button and the main div for the mocal, under the id (this last instance is for clicking outside the modal to close it)
